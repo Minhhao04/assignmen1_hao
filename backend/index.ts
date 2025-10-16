@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://your-frontend.vercel.app"],
+    origin: ["http://localhost:3000", "https://assignmen1-hao.vercel.app/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
